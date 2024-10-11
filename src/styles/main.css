@@ -12,6 +12,7 @@
 
 .page {
   position: relative;
+  block-size: 100vh;
 }
 .page::before {
   content: "";
