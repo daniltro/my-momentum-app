@@ -3,7 +3,7 @@ import { fakeWeatherData } from "./constants";
 export class WeatherService {
   constructor() {
     this.apiKey = "3befaad8c74b8d2c4f5a9607979164d6";
-    this.useFakeData = true;
+    this.useFakeData = false;
   }
 
   async getLocation() {
