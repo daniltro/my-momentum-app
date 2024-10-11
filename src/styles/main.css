@@ -10,11 +10,17 @@
   box-sizing: border-box;
 }
 
-body {
-  box-shadow: 40px 60px 150px 0 rgba(59, 38, 123, 0.7);
-  background: linear-gradient(136deg, #2e335a 0%, #1c1b33 100%);
-  block-size: 100vh;
+.page {
   position: relative;
+}
+.page::before {
+  content: "";
+  inline-size: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: #1b1a1a;
+  opacity: 0.4;
+  z-index: -1;
 }
 
 .info-section {
@@ -26,17 +32,6 @@ body {
   padding: 20px;
   display: flex;
   justify-content: center;
-}
-
-.app::before {
-  content: "";
-  inline-size: 100%;
-  block-size: 100%;
-  position: absolute;
-  inset: 0;
-  background-color: #1b1a1a;
-  opacity: 0.4;
-  z-index: -1;
 }
 
 .container {

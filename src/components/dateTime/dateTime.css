@@ -28,4 +28,5 @@
   font-size: 96px;
   color: #fff;
   opacity: 0.8;
+  inline-size: fit-content;
 }
