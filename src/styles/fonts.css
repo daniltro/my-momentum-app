@@ -1,23 +1,23 @@
 @font-face {
   font-family: "SF Pro Text";
-  src: url("../../public/fonts/SanFranciscoProText/SFProText-Regular.ttf");
+  src: url("/my-momentum-app/fonts/SanFranciscoProText/SFProText-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "SF Pro Text";
-  src: url("../../public/fonts/SanFranciscoProText/SFProText-Bold.ttf");
+  src: url("/my-momentum-app/fonts/SanFranciscoProText/SFProText-Bold.ttf");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../../public/fonts/SanFranciscoProDisplay/SF-Pro-Display-Regular.otf");
+  src: url("/my-momentum-app/fonts/SanFranciscoProDisplay/SF-Pro-Display-Regular.otf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../../public/fonts/SanFranciscoProDisplay/SF-Pro-Display-Bold.otf");
+  src: url("/my-momentum-app/fonts/SanFranciscoProDisplay/SF-Pro-Display-Bold.otf");
   font-weight: 700;
 }

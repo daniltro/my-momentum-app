@@ -80,6 +80,8 @@
 
 .weather__description {
   font-size: 40px;
+  padding: 7px 8px;
+  opacity: 0.8;
 }
 
 .save-city-button {
