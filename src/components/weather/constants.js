@@ -1,0 +1,52 @@
+export const fakeWeatherData = {
+  request: {
+    type: "City",
+    query: "New York, United States of America",
+    language: "en",
+    unit: "m",
+  },
+  location: {
+    name: "New York",
+    country: "United States of America",
+    region: "New York",
+    lat: "40.714",
+    lon: "-74.006",
+    timezone_id: "America/New_York",
+    localtime: "2024-10-10 19:23",
+    localtime_epoch: 1728588180,
+    utc_offset: "-4.0",
+  },
+  current: {
+    observation_time: "11:23 PM",
+    temperature: 14,
+    weather_code: 113,
+    weather_icons: [
+      "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png",
+    ],
+    weather_descriptions: ["Clear"],
+    wind_speed: 22,
+    wind_degree: 332,
+    wind_dir: "NNW",
+    pressure: 1019,
+    precip: 0,
+    humidity: 42,
+    cloudcover: 0,
+    feelslike: 13,
+    uv_index: 0,
+    visibility: 16,
+    is_day: "no",
+  },
+};
+
+export const weatherDescriptionsRu = {
+  Sunny: "Солнечно",
+  "Partly cloudy": "Переменная облачность",
+  Overcast: "Пасмурно",
+  "Light rain shower": "Лёгкий дождь",
+  "Heavy rain": "Сильный дождь",
+  Snow: "Снег",
+  Thunderstorm: "Гроза",
+  Mist: "Туман",
+  Fog: "Мгла",
+  Clear: "Ясно",
+};

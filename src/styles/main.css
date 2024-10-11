@@ -1,0 +1,76 @@
+@import "./variables.css";
+@import "../components/weather/weather.css";
+@import "./fonts.css";
+@import "../components/dateTime/dateTime.css";
+@import "../components/todoList/myTodoList.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-shadow: 40px 60px 150px 0 rgba(59, 38, 123, 0.7);
+  background: linear-gradient(136deg, #2e335a 0%, #1c1b33 100%);
+  block-size: 100vh;
+  position: relative;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app::before {
+  content: "";
+  inline-size: 100%;
+  block-size: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: #1b1a1a;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.container {
+  max-inline-size: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1130px) {
+  .info-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .date-time {
+    inline-size: 300px;
+  }
+  .time {
+    font-size: 50px;
+    text-align: center;
+  }
+  .controls__button-box {
+    flex-direction: column;
+  }
+  .weather {
+    inline-size: 300px;
+  }
+  .weather__city {
+    font-size: 25px;
+  }
+  .weather__description {
+    font-size: 20px;
+  }
+  .save-city-button {
+    left: 50px;
+  }
+}

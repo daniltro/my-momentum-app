@@ -1,0 +1,31 @@
+.date-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  inline-size: 550px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.322);
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+.date {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+}
+.time {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 96px;
+  color: #fff;
+  opacity: 0.8;
+}
