@@ -4,7 +4,7 @@ export class BackgroundSlider {
   }
   setBackground() {
     let currentTime = new Date().getHours();
-    currentTime = 7
+
     let backgroundStyle = "";
 
     if (currentTime >= 0 && currentTime <= 6) {
