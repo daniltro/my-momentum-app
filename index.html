@@ -5,60 +5,68 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>App</title>
-    <script type="module" crossorigin src="/my-momentum-app/assets/index-DmHbnucM.js"></script>
-    <link rel="stylesheet" crossorigin href="/my-momentum-app/assets/index-C_8TMfFh.css">
+    <script type="module" crossorigin src="/my-momentum-app/assets/index-Tdx1ZqYR.js"></script>
+    <link rel="stylesheet" crossorigin href="/my-momentum-app/assets/index-BIL7xR-7.css">
   </head>
   <body class="page">
-    <div class="app" id="app">
-      <div class="container">
-        <section class="info-section">
-          <div class="date-time">
-            <div class="date"></div>
-            <div class="time"></div>
-          </div>
-          <div class="weather-wrapper">
-            <div class="weather">
-              <div class="flex-item-wrapper">
-                <div class="flex-item">
-                  <div class="weather__temperature"></div>
-                  <input
-                    class="weather__city"
-                    type="text"
-                    placeholder="Введите город"
-                  />
-                </div>
-                <div class="flex-item">
-                  <div class="logo-wrapper">
-                    <div class="weather-logo"></div>
+    <div class="overlay">
+      <div class="app" id="app">
+        <div class="container">
+          <section class="info-section">
+            <div class="date-time">
+              <div class="date"></div>
+              <div class="time"></div>
+            </div>
+            <div class="weather-wrapper">
+              <div class="weather">
+                <div class="flex-item-wrapper">
+                  <div class="flex-item">
+                    <div class="weather__temperature"></div>
+                    <label class="label-weather__city" for="city"
+                      >Ваш город:</label
+                    >
+                    <input
+                      id="city"
+                      class="weather__city"
+                      type="text"
+                      placeholder="Введите город"
+                    />
                   </div>
-                  <div class="weather__description-wrapper">
-                    <p class="weather__description"></p>
+                  <div class="flex-item">
+                    <div class="logo-wrapper">
+                      <div class="weather-logo"></div>
+                    </div>
+                    <div class="weather__description-wrapper">
+                      <p class="weather__description"></p>
+                    </div>
                   </div>
                 </div>
+                <button class="save-city-button" type="button">
+                  Сохранить
+                </button>
               </div>
-              <button class="save-city-button" type="button">Сохранить</button>
             </div>
-          </div>
-        </section>
-        <section class="my-todos-section">
-          <p class="todo-list__title">Задачи на сегодня:</p>
-          <div class="controls">
-            <div class="controls__button-box">
-              <input
-                type="text"
-                class="add-todo-input"
-                placeholder="Введите дело..."
-              />
-              <button class="todo-button add-todo-button">
-                Добавить задачу
-              </button>
-              <button class="todo-button clear-todos-button">Очистить</button>
+          </section>
+          <section class="my-todos-section">
+            <p class="todo-list__title">Задачи на сегодня:</p>
+            <div class="controls">
+              <div class="controls__button-box">
+                <input
+                  type="text"
+                  class="add-todo-input"
+                  placeholder="Введите дело..."
+                />
+                <button class="todo-button add-todo-button">
+                  Добавить задачу
+                </button>
+                <button class="todo-button clear-todos-button">Очистить</button>
+              </div>
             </div>
-          </div>
-          <div class="todo-list-wrapper">
-            <ul class="todo-list"></ul>
-          </div>
-        </section>
+            <div class="todo-list-wrapper">
+              <ul class="todo-list"></ul>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
   </body>
