@@ -1,7 +1,7 @@
 .date-time {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 30px;
   inline-size: 550px;
   padding: 40px;
