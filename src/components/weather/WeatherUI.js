@@ -12,7 +12,7 @@ export class WeatherUI {
     const description = data.current.weather_descriptions[0];
 
     function translateWeatherDescription(description) {
-      return weatherDescriptionsRu[description] || description; // Если перевода нет, возвращаем оригинальное значение
+      return weatherDescriptionsRu[description] || description;
     }
 
     const weatherIconUrl = data.current.weather_icons[0];

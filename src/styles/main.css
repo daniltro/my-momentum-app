@@ -17,7 +17,7 @@
 .page::before {
   content: "";
   inline-size: 100%;
-  position: absolute;
+  position: fixed;
   inset: 0;
   background-color: #1b1a1a;
   opacity: 0.4;
@@ -54,6 +54,7 @@
     font-size: 50px;
     text-align: center;
   }
+
   .controls__button-box {
     flex-direction: column;
   }
@@ -68,5 +69,14 @@
   }
   .save-city-button {
     left: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .info-section {
+    inline-size: 300px;
+  }
+  .controls {
+    inline-size: 300px;
   }
 }

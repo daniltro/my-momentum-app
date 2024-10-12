@@ -4,14 +4,14 @@
   justify-content: center;
   border-radius: 30px;
   inline-size: 550px;
-  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.322);
   padding: 40px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 0%,
     rgba(255, 255, 255, 0.1) 100%
   );
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.322);
 }
 .date {
   font-family: var(--font-family);
@@ -19,7 +19,6 @@
   font-size: 20px;
   color: #fff;
   text-align: center;
-  opacity: 0.8;
 }
 .time {
   text-align: center;
@@ -27,6 +26,5 @@
   font-weight: 700;
   font-size: 96px;
   color: #fff;
-  opacity: 0.8;
   inline-size: fit-content;
 }
